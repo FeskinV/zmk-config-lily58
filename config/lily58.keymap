@@ -67,8 +67,6 @@
 &hrm CAPS LEFT_SHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp LBKT     &kp RBKT  &kp N         &kp M       &kp COMMA   &kp DOT      &kp FSLH     &kp BACKSLASH
                                               &kp LALT    &kp LGUI    &to 0         &kp SPACE    &kp RET   &to 1         &kp BSPC    &kp DEL
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
