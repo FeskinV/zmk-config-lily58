@@ -61,11 +61,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&hrm F1 ESC     &hrm F2 N1  &hrm F3 N2  &hrm F4 N3  &hrm F5 N4  &hrm F6 N5                               &hrm F7 N6         &hrm F8 N7  &hrm F9 N8     &hrm F10 N9  &hrm F11 N0  &hrm F12 EQUAL
-&kp TAB         &kp Q       &kp W       &kp E       &kp R       &hrm GRAVE T                             &kp Y              &kp U       &kp I          &kp O        &kp P        &kp MINUS
-&kp LCTRL       &kp A       &kp S       &kp D       &kp F       &hrm LSHFT G                             &hrm RSHFT H       &kp J       &kp K          &kp L        &kp SEMI     &kp SQT
-&kp LEFT_SHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B             &kp LBKT     &kp RBKT  &kp N              &kp M       &kp COMMA      &kp DOT      &kp FSLH     &kp BACKSLASH
-                                        &kp LALT    &kp LGUI    &lt 0 LEFT_BRACE  &kp SPACE    &kp RET   &lt 1 RIGHT_BRACE  &kp BSPC    &hrm CAPS DEL
+&hrm F1 ESC     &hrm F2 N1  &hrm F3 N2  &hrm F4 N3  &hrm F5 N4  &hrm F6 N5                           &hrm F7 N6    &hrm F8 N7  &hrm F9 N8     &hrm F10 N9  &hrm F11 N0  &hrm F12 EQUAL
+&kp TAB         &kp Q       &kp W       &kp E       &kp R       &hrm GRAVE T                         &kp Y         &kp U       &kp I          &kp O        &kp P        &kp MINUS
+&kp LCTRL       &kp A       &kp S       &kp D       &kp F       &hrm LSHFT G                         &hrm RSHFT H  &kp J       &kp K          &kp L        &kp SEMI     &kp SQT
+&kp LEFT_SHIFT  &kp Z       &kp X       &kp C       &kp V       &kp B         &kp LBKT     &kp RBKT  &kp N         &kp M       &kp COMMA      &kp DOT      &kp FSLH     &kp BACKSLASH
+                                        &kp LALT    &kp LGUI    &to 0         &kp SPACE    &kp RET   &to 1         &kp BSPC    &hrm CAPS DEL
             >;
         };
 
